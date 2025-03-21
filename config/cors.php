@@ -3,7 +3,7 @@
 return [
     'paths' => ['api/*', 'sanctum/csrf-cookie'],
     'allowed_methods' => ['*'],
-    'allowed_origins' => ['http://localhost:5173', 'http://localhost:5174'], // Añade 5175
+    'allowed_origins' => ['https://catania.com.mx', 'https://adminpaneluniformesdestacadoscatania.netlify.app'], // Añade 5175
     'allowed_origins_patterns' => [],
     'allowed_headers' => ['*'],
     'exposed_headers' => [],
